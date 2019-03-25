@@ -13,3 +13,8 @@ end
 puts "#{current_line}"
 end
 end 
+
+def take_a_number(katz_deli, new_person)
+katz_deli << new_person 
+puts "Welcome, #{new_person}. Please take a number."
+end
