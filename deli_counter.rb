@@ -26,4 +26,4 @@ def now_serving(katz_deli)
       puts "Currently serving #{customer}."
     end
   end 
-end 
+
