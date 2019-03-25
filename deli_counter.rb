@@ -26,5 +26,6 @@ def now_serving(katz_deli)
       puts "Currently serving #{customer.shift}."
     end
   end 
+end
 
 
