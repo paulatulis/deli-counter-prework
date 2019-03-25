@@ -10,6 +10,6 @@ current_line = "The line is currently:"
     position_plus_one = position + 1 
     current_line += " #{position_plus_one}. #{names}" 
 end 
-puts current_line.to_s 
+puts "#{current_line}"
 end
 end 
