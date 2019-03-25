@@ -27,5 +27,4 @@ def now_serving(katz_deli)
       customer.pop
     end
   end 
-end 
-end 
+
