@@ -5,7 +5,7 @@ else
   katz_deli.each_with_index do 
     |names, position| 
     position_plus_one = position + 1 
-    puts "The line is currently: #{position}. #{names} #{position}. #{names} #{position}. #{names}"
+    puts "The line is currently: #{position_plus_one}. #{names}" 
 end 
 end 
 end 
