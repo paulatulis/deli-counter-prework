@@ -24,7 +24,6 @@ def now_serving(katz_deli)
   else 
     katz_deli.each |customer| do 
       puts "Currently serving #{customer}."
-      customer.pop
     end
   end 
-
+end 
