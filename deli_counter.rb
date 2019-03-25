@@ -22,6 +22,9 @@ end
 def now_serving(katz_deli)
   if katz_deli.empty? puts "The line is currently empty."
   else 
-    katz_deli.each |customer| customer.pop
+    katz_deli.each |customer| do 
+      puts "Currently serving #{customer}."
+      customer.pop
+    end
   end 
 end 
